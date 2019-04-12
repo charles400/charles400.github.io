@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/contact.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img id="logo" src="images/logo.png" alt="logo">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapse-main">
+      <ul class="nav navbar-nav navbar-center">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="testimonials.html">TESTIMONIALS</a></li>
+        <li><a class="active" href="contact.html">CONTACT</a></li>
+        <li><a href="survey.html">SURVEY</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="home">
+  <div class="landing-text">
+    <div class="padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <img src="images/contactus.png" id="contactus" alt="contactus">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <form onsubmit="alert('Thanks for your submission!')" method="post" action="contact.html">
+                    <div class="form-group">
+                      <input type="email" class="form-control" id="email" placeholder="Email address:" required>
+                    </div>
+                    <div class="form-group">
+                      <select id=subject class="custom-select" required>
+                        <option value="" disabled selected>Subject</option>
+                        <option value="Inquiry">Inquiry</option>
+                        <option value="Comment">Comment</option>
+                        <option value="Suggestions">Suggestion</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <textarea placeholder="Message" id="feedback" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">SUBMIT</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div id="contactinfo">
+              <address>
+                <strong>Charles Layug</strong><br>
+                <p>168 Bourke St, Melbourne VIC 3000, Australia</p>
+              </address>
+              <address>
+                <abbr title="Phone">P:</abbr>
+                (123) 456-7890
+                <br>
+                <abbr title="Support">E:</abbr>
+                <a href="mailto:#">charles1234@gmail.com</a>
+                <br>
+                <abbr title="Press">E:</abbr>
+                <a href="mailto:#">clayug@my.bcit.ca</a>
+                <br>
+                <abbr title="Careers">E:</abbr>
+                <a href="mailto:#">realemail@mailmail.mail</a>
+                <br>
+                <abbr title="Other Inquiries">E:</abbr>
+                <a href="mailto:#">noreply@yahoo.com</a>
+              </address>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14993.688745438525!2d144.9692209382184!3d-37.8126543385327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xae4c83352ebcd9e5!2sMcDonald&#39;s+Bourke+%26+Russell!5e0!3m2!1sen!2sca!4v1554863769749!5m2!1sen!2sca" allowfullscreen></iframe>
+</div>
+
+
+
+<footer class="container-fluid text-center">
+  <div class="row">
+    <div class="col-sm-4" id="leftfooter">
+      <a href="contact.html">CONTACT INFORMATION</a>
+    </div>
+    <div class="col-sm-4">
+      <h3>CONNECT</h3>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-google"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-instagram"></a>
+    </div>
+    <div class="col-sm-4" id="rightfooter">
+      <h3>@ 2019 BCIT</h3>
+    </div>
+  </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.navbar {
+    background-color: #0d0a0b;
+    padding: 1% 0;
+    font-size: 1em;
+    opacity: 0.5%;
+    letter-spacing: 2px;
+    box-shadow: 5px 10px 25px #000;
+    z-index: 22;
+}
+#logo{
+    height: 100px;
+    position: relative;
+    top: -42px;
+}
+.navbar-default .navbar-nav li a{
+    color: #D5D5D5;
+    padding-right: 30px;
+}
+.navbar-default .navbar-nav li a:hover,.navbar-default .navbar-nav li a.active {
+    color: #FFF;
+}
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+#home {
+    background: url(images/gradient.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.btn{
+    letter-spacing: 4px;
+    font-size: 20px;
+    border-radius: 0;
+    background-color: #0d0a0b;
+    border: 2px solid #fff9;
+    color: #fff9;
+    margin: 12px;
+    padding: 12px 100px 12px 100px;
+    box-shadow: 5px 10px 25px #000;
+    position:relative;
+    z-index: 22;
+}
+.btn:hover {
+    color: #fff;
+    border-color: #fff;
+
+}
+
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.landing-text h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff7;
+    letter-spacing: 3px;
+}
+.padding {
+    padding: 80px 0;
+}
+.padding img {
+    width: 100%;
+}
+footer {
+    width: 100%;
+    background-color: #0d0a0b;
+    padding: 0 5% 0 5%;
+    letter-spacing: 5px;
+}
+footer a, footer h3 {
+    font-size: 1em;
+    color: #FFF;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: none;
+    color: #D5D5D5;
+}
+footer #leftfooter {
+    padding-top: 2%;
+}
+footer #rightfooter {
+    padding-top: 1%;
+}
+.fa {
+    padding: 15px;
+    font-size: 25px;
+    color: #FFF;
+}
+.fa:hover {
+    color: #D5D5D5;
+    text-decoration: none;
+}
+.icon {
+    max-width: 200px;
+}
+
+@media (max-width: 768px) {
+    .landing-text h1 {
+        font-size: 300%;
+    }
+    .fa {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .icon {
+        padding-top: 5%;
+        max-width: 100px;
+    }
+    #home img {
+        max-width: 100%;
+    }
+    #home h3 {
+        font-size: 100%;
+    }
+    #logo {
+        height: 55px;
+        width: 55px;
+        position: absolute;
+        top: 0;
+    }
+    .btn{
+        font-size: 100%;
+        padding: 2% 14% 2% 14%;
+    }
+}

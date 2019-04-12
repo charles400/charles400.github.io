@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>about</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/about2.css" rel="stylesheet" />
+</head>
+
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img id="logo" src="images/logo.png" alt="logo">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapse-main">
+      <ul class="nav navbar-nav navbar-center">
+        <li><a href="index.html">HOME</a></li>
+        <li><a class="active" href="about.html">ABOUT</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="testimonials.html">TESTIMONIALS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="survey.html">SURVEY</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="home">
+  <div class="landing-text">
+    <div class="padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <h3>DOG PHOTOS</h3>
+            <p>Actually just puppies.</p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <h3>PICTURES OF FOOD</h3>
+            <p>Pictures of food.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <img src="images/pup1.jpeg" id="pup1" class="image-responsive" onclick="getimg('pup1'); displayimg()" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <img src="images/pup2.jpg" id="pup2" class="image-responsive" onclick="getimg('pup2'); displayimg()" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <img src="images/food.jpg" id="food1" class="image-responsive" alt="Tiger Cookie" onclick="getimg('food1'); displayimg()">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <img src="images/food2.jpg" id="food2" class="image-responsive" alt="Some kind of pancake thing." onclick="getimg('food2'); displayimg()">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <img src="images/pup3.jpg" id="pup3" class="image-responsive" onclick="getimg('pup3'); displayimg()" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <img src="images/pup4.jpg" id="pup4" class="image-responsive" onclick="getimg('pup4'); displayimg()" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <img src="images/food3.jpg" id="food3" class="image-responsive" alt="Poutine" onclick="getimg('food3'); displayimg()">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <img src="images/food4.jpg" id="food4" class="image-responsive" alt="That's a big meatball." onclick="getimg('food4'); displayimg()">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <img src="images/pup5.jpg" id="pup5" class="image-responsive" onclick="getimg('pup5'); displayimg()" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <img src="images/pup6.jpg" id="pup6" class="image-responsive" onclick="getimg('pup6'); displayimg()" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <img src="images/food5.jpg" id="food5" class="image-responsive" alt="Carbonara" onclick="getimg('food5'); displayimg()">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <img src="images/food6.jpg" id="food6" class="image-responsive" alt="Tiramisu" onclick="getimg('food6'); displayimg()">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <img src="images/pup7.jpg" id="pup7" class="image-responsive" onclick="getimg('pup7'); displayimg()" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <img src="images/pup8.jpg" id="pup8" class="image-responsive" onclick="getimg('pup8'); displayimg()" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <img src="images/food7.jpg" id="food7" class="image-responsive" alt="Chicken Teriyaki" onclick="getimg('food7'); displayimg()">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <img src="images/food8.jpg" id="food8" class="image-responsive" alt="Sushi" onclick="getimg('food8'); displayimg()">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <img src="images/pup9.jpg" id="pup9" class="image-responsive" onclick="getimg('pup9'); displayimg()" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <img src="images/pup10.jpg" id="pup10" class="image-responsive" onclick="getimg('pup10'); displayimg()" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <img src="images/food9.jpg" id="food9" class="image-responsive" alt="Korean Fried Chicken" onclick="getimg('food9'); displayimg()">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <img src="images/food10.jpg" id="food10" class="image-responsive" alt="Chicken cutlet" onclick="getimg('food10'); displayimg()">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <img src="images/pup11.jpg" id="pup11" class="image-responsive" onclick="getimg('pup11'); displayimg()" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <img src="images/pup12.jpg" id="pup12" class="image-responsive" onclick="getimg('pup12'); displayimg()" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <img src="images/food11.jpg" id="food11" class="image-responsive" alt="More chicken" onclick="getimg('food11'); displayimg()">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <img src="images/food12.jpg" id="food12" class="image-responsive" alt="Bibimbap" onclick="getimg('food12'); displayimg()">
+          </div>
+        </div>
+
+        <nav class="navbar" id="numbernav">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="about.html">1<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="about2.html">2</a>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01" src="images/pup1" alt="">
+  <div id="caption"></div>
+</div>
+
+
+
+<footer class="container-fluid text-center">
+  <div class="row">
+    <div class="col-sm-4" id="leftfooter">
+      <a href="contact.html">CONTACT INFORMATION</a>
+    </div>
+    <div class="col-sm-4">
+      <h3>CONNECT</h3>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-google"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-instagram"></a>
+    </div>
+    <div class="col-sm-4" id="rightfooter">
+      <h3>@ 2019 BCIT</h3>
+    </div>
+  </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/about2.js"></script>
+
+
+</body>
+</html>
